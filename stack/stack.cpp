@@ -52,8 +52,17 @@ bool isemp(){
             return false;
         } 
 }
+bool isfull(){
+    if(top==n-1){
+        cout<<"not enough space"<<endl;
+        return false;
+        
+    }
+}
 
 };
+
+
 
 
 
